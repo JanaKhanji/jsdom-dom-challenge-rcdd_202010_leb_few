@@ -31,7 +31,6 @@ document.querySelector("#plus").addEventListener("click",function () {
     pauseBtn.innerText="resume";
     clearInterval(intervalID);}
   else{
-    counter=0;
     intervalID = window.setInterval(count, 1000);
     document.querySelector("#minus").disabled = false;
     document.querySelector("#plus").disabled = false;
